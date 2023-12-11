@@ -5,6 +5,6 @@ class Home:
             print("Целое число:", int_number)
         except ValueError:
             print("ValueError")
-home_instance = Home()
-home_instance.new("12")
-home_instance.new("1.2")
+home = Home()
+home.new("12")
+home.new("1.2")
